@@ -18,8 +18,12 @@
                 </div>
             @endforeach
         </div>
+        
         <div class='paginate'>
             {{ $posts->links() }}
         </div>
+        
+        <div class = 'create'>[<a href='create'>create</a>]</div>
+        
     </body>
 </html>
